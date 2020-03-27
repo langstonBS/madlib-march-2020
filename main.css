@@ -4,7 +4,34 @@
     display: none;
 }
 
-ul {
-    list-style-type: none;
-    list-style-position: outside;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 450px;
+}
+
+th {
+    padding:10px;
+}
+
+h1 {
+    font: 1.5em Helvetica;
+    text-align: center;
+    font-weight: bold;
+}
+h3 {
+    font: 1.2em Helvetica;
+}
+button {
+    font: 1em Helvetica;
+    padding: 3px;
+    text-align: center;
+}
+
+p {
+    font: 1em Arial;
+}
+
+
+.input-contatiner {
+    justify-content: center;
 }
